@@ -1,0 +1,30 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lesson 16-21.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  lesson 16-19.cpp
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(32,35): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(34,35): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(38,28): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(40,34): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(43,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(49,38): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(50,39): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(52,49): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(52,35): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(151,30): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(151,26): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(152,30): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(152,26): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(154,24): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Camera.h(155,24): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Technique.h(51,1): warning C4267: =: преобразование из "size_t" в "GLint"; возможна потеря данных
+  Math_3d.cpp
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(22,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(23,37): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(51,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(51,19): warning C4244: инициализация: преобразование "double" в "const float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(52,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(52,19): warning C4244: инициализация: преобразование "double" в "const float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(53,21): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(53,19): warning C4244: инициализация: преобразование "double" в "const float", возможна потеря данных
+C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\Math_3d.cpp(97,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
+  lesson 16-21.vcxproj -> C:\Users\user\source\repos\EngineeringGraphics\LW_3\x64\Debug\lesson 16-19.exe
