@@ -1,2 +1,0 @@
-C:\Users\user\source\repos\EngineeringGraphics\LW__3\lesson 16-21\x64\Debug\lesson 16-21.vcxproj.CopyComplete
-C:\Users\user\source\repos\EngineeringGraphics\LW_3\lesson 16-21\x64\Debug\lesson 16-21.vcxproj.CopyComplete
