@@ -13,7 +13,7 @@
 #include "shadow_map_technique.h"
 
 #define WINDOW_WIDTH  1024
-#define WINDOW_HEIGHT 1024
+#define WINDOW_HEIGHT 720
 #define SAFE_DELETE delete
 
 class Main : public ICallbacks {
@@ -76,7 +76,7 @@ public:
         if (!m_pQuad->LoadMesh("C:/tmp/Quad.obj"))
             return false;
 
-        m_pGroundTex = new Texture(GL_TEXTURE_2D, "C:/tmp/test3.png");
+        m_pGroundTex = new Texture(GL_TEXTURE_2D, "C:/tmp/grass.png");
         if (!m_pGroundTex->Load())
             return false;
 
@@ -90,7 +90,7 @@ public:
 
     virtual void RenderSceneCB() {
         m_pGameCamera->OnRender();
-        m_scale += 0.025f;
+        m_scale += 0.25f;
 
         ShadowMapPass();
         RenderPass();
@@ -108,7 +108,7 @@ public:
         Pipeline p;
         p.Scale(0.02f, 0.02f, 0.02f);
         p.Rotate(0.0f, m_scale, 0.0f);
-        p.WorldPos(0.0f, 0.0f, 5.0f);
+        p.WorldPos(0.0f, 0.0f, 3.0f);
         p.SetCamera(m_spotLight.Position, m_spotLight.Direction, Vector3f(0.0f, 1.0f, 0.0f));
         p.SetPerspectiveProj(60.0f, WINDOW_WIDTH, WINDOW_HEIGHT, 1.0f, 50.0f);
         m_pShadowMapEffect->SetWVP(p.GetWVPTrans());
